@@ -1,0 +1,25 @@
+{
+    "name": "vue-color",
+    "displayName": "vue-color",
+    "description": "vue-color theme for VSCode",
+    "version": "0.0.2",
+    "publisher": "staychan",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Vue Theme",
+                "uiTheme": "vs",
+                "path": "./themes/vue.tmTheme"
+            }
+        ]
+    },
+    "repository": {
+        "url": "https://github.com/STayinloves/vue-color"
+    }
+}
